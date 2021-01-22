@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Weather app</h1>
+
+        <form class="user-form">
+            <label for="city">Enter location for weather information</label>
+            <input type="text" id="city" placeholder="Search new location weather">
+        </form>
+
+        <div class="card displaynone">
+            <!--dia o noche-->
+            <img src="https://via.placeholder.com/400" class="image">
+            
+            <!--icono que representa el tiempo-->
+            <div class="icon">
+                <img src="" alt="">
+            </div>
+
+            <div class="text">
+                <!-- lo que habia aqui será una plantilla nueva 
+                que se crea cada vez que se obtienen nuevos datos-->
+            </div>
+            
+        
+        </div>
+    </div>
+
+    
+    
+    <script src="./scripts/weather.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
